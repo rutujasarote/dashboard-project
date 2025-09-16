@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+body{font-family:Inter, sans-serif;margin:0;background:#f5f7fb;color:#111}
+.container{max-width:1100px;margin:20px auto;padding:20px}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+header h1{margin:0;font-size:20px}
+.controls{display:flex;gap:8px;align-items:center}
+.controls input{padding:8px;border-radius:6px;border:1px solid #ddd}
+.new-cat input{padding:8px;border-radius:6px;border:1px solid #ddd;margin-right:6px}
+main{margin-top:20px;display:flex;flex-direction:column;gap:20px}
+.category{background:white;padding:16px;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.06)}
+.widgets-grid{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}
+.widget{width:240px;background:#fbfdff;border:1px solid #e6eef8;padding:12px;border-radius:8px;position:relative}
+.widget-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.icon-btn{background:transparent;border:none;cursor:pointer;font-size:14px}
+.add-widget-btn{margin-top:12px;padding:8px 12px;border-radius:8px;border:1px dashed #bbb;background:transparent;cursor:pointer}
+.add-form{margin-top:12px;display:flex;flex-direction:column;gap:8px}
+.add-form input{padding:8px;border-radius:6px;border:1px solid #ddd}
+.add-actions{display:flex;gap:8px}
+.add-actions button{padding:8px 12px;border-radius:6px;border:none;cursor:pointer}
+footer{margin-top:20px;text-align:center;color:#666}
